@@ -356,7 +356,7 @@ class Solver:
             and print a matrix for each of the step.
         """        
 
-        print("\nSolusi sudah ditemukan!\n")
+        print("Solusi sudah ditemukan!\n")
         print("Banyaknya simpul yang dibangkitkan:", self.queue.qsize() + len(self.checked)) # nodes raised
         print("Banyak steps:", len(self.solusi.prev) - 1 ) # the amount of steps
         temp = self.startMatrix
@@ -406,7 +406,7 @@ class Solver:
         if (not self.startMatrix.isSolvable()):
             print("Syarat bernilai ganjil, maka puzzle unsolvable.")
         else:
-            print("Syarat bernilai genap, maka puzzle solvable.")
+            print("Syarat bernilai genap, maka puzzle solvable.\n\nSedang proses pencarian solusi... ")
             self.startMatrix.cost = self.startMatrix.countCost()
             self.queue.put((self.startMatrix.cost, self.startMatrix))
             self.mapMatrix[self.startMatrix.matrix.tobytes()] = True
