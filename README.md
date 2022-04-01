@@ -7,7 +7,7 @@
   - [Program Description](#program-description)
   - [Requirements and Setup](#requirements-and-setup)
   - [How To Use Program](#how-to-use-program)
-  - [Contributor](#contributor)
+  - [Author](#author)
 
 ## Program Description
 Algoritma *Branch and Bound* merupakan algoritma yang digunakan untuk memecahkan persoalan optimasi dengan cara melakukan percabangan (branching) dari node awal menjadi node - node anak dan melakukan pembatasan (bounding) dari node - node tersebut untuk mengarah ke solusi. Proses *branching* dan *bounding* tersebut dilakukan berulang kali hingga ditemukan solusi yang optimal. Proses pencarian dengan algoritma ini menggunakan pembentukan pohon ruang status dinamis dengan permasalahan awal menjadi node akar dan bercabang menjadi node - node anak lainnya hingga node solusi. Berbeda dengan Algoritma BFS ataupun DFS, urutan pemeriksaan node dalam algoritma *Branch and Bound* dipilih berdasarkan node yang memiliki cost terkecil (*Least Cost Search*).
@@ -47,7 +47,7 @@ python src/main.py
 
 5. Program kemudian akan meminta input apakah anda ingin solve untuk puzzle yang lain atau tidak. Apabila tidak, maka anda dapat memasukkan input n kemudian program akan selesai. Apabila ingin lanjut memeriksa, anda dapat memasukkan input y kemudian program akan kembali ke langkah 3.
 
-## Contributor :
+## Author :
 > Saul Sayers (13520094), K01 - Informatika ITB 2020. 
 
 More detailed contact: 
