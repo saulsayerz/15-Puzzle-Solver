@@ -18,18 +18,30 @@ while (True) :
     print("Cara generate puzzle:")
     print("1. Dari txt file")
     print("2. Random puzzle generator")
-    choice = int(input("Enter command here (Masukkan angka 1 atau 2) : "))
+
+    choice = 0
     while (choice != 1 and choice != 2):
-        choice = int(input("Input salah, silahkan coba lagi!\n Masukkan angka 1 atau 2 : "))
+        try:
+            choice = int(input("Enter command here (Masukkan angka 1 atau 2) : "))
+        except :
+            print("Input salah, silahkan coba lagi!")
+
     if choice == 1 :
         puzzlesolver.startMatrix.readFile()
     else :
         puzzlesolver.startMatrix.generateMatrix()
+    
     waktuawal = time.time()
     puzzlesolver.solve()
-    puzzlesolver.cetakSolusi()
+    if puzzlesolver.startMatrix.isSolvable():
+        puzzlesolver.cetakSolusi()
     waktuakhir = time.time()
     print("Waktu eksekusi:", waktuakhir-waktuawal)
-    break
+
+    print("Apakah anda ingin solve puzzle lain? (ketik y/n)")
+    lanjut = input("Enter choice here [defaultnya y] : ")
+    if lanjut == "n":
+        break
+    print()
     
 print("Terimakasih telah menggunakan program saya :D")
