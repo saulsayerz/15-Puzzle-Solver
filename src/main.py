@@ -36,7 +36,7 @@ while (True) :
     if puzzlesolver.startMatrix.isSolvable():
         puzzlesolver.cetakSolusi()
     waktuakhir = time.time()
-    print("Waktu eksekusi:", waktuakhir-waktuawal)
+    print("Waktu eksekusi:", waktuakhir-waktuawal, "sekon")
 
     print("Apakah anda ingin solve puzzle lain? (ketik y/n)")
     lanjut = input("Enter choice here [defaultnya y] : ")

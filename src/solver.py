@@ -388,13 +388,16 @@ class Solver:
             otherwise, the method will continue to the bangkitkanSimpul method.
         """        
 
-        print("Matriks awalnya: ")
+        print("\nMatriks awalnya: ")
         self.startMatrix.printMatrix()
         print()
         print("Mencari tiap kurang(i): ")
         arr = self.startMatrix.kurang_i()
         for i in range (1,16):
-            print("Kurang("+str(i) +") =", arr[i])
+            if i < 10 :
+                print("Kurang("+str(i) +")  =", arr[i])
+            else :
+                print("Kurang("+str(i) +") =", arr[i])
         print("Kurang(16) =",arr[0])
         print("Total sigma(i) =", sum(arr))
         print("X =", self.startMatrix.locateBlank())
