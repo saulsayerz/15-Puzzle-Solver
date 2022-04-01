@@ -1,8 +1,8 @@
-# Tugas Kecil 2 IF2211 Strategi Algoritma
+# Tugas Kecil 3 IF2211 Strategi Algoritma
 > Implementasi Branch and Bound dalam program 15-Puzzle Solver
 
 ## Table of Contents
-- [Tugas Kecil 2 IF2211 Strategi Algoritma](#tugas-kecil-2-if2211-strategi-algoritma)
+- [Tugas Kecil 3 IF2211 Strategi Algoritma](#tugas-kecil-3-if2211-strategi-algoritma)
   - [Table of Contents](#table-of-contents)
   - [Program Description](#program-description)
   - [Requirements and Setup](#requirements-and-setup)
