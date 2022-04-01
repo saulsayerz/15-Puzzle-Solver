@@ -34,7 +34,7 @@ git clone https://github.com/saulsayerz/Tucil3_13520094
 ```
 
 ## How to Use Program
-1. Buka root direktori dari repository yang telah anda clone
+1. Buka root direktori dari repository yang telah anda clone.
 
 2. Jalankan file main.py yang ada dalam folder src. Terdapat dua cara untuk menjalankan file tersebut. Yang pertama dengan menjalankan run.bat yang tersedia dalam root direktori dan yang kedua dengan cara membuka terminal pada root directory kemudian mengetikkan sintaks berikut :
 ```
