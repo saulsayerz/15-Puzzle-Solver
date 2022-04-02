@@ -50,6 +50,13 @@ python src/main.py
 
 3. Program akan meminta cara untuk men*generate* puzzle. Apabila anda ingin memasukkan puzzle dari file eksternal, masukkan angka 1 lalu ketik nama file yang diinginkan. Program akan meminta ulang nama file apabila file tersebut tidak ditemukan. Apabila anda ingin men*generate* puzzle secara random, maka masukkan angka 2. Apabila anda memasukkan angka selain 1 atau 2, program akan meminta ulang input sampai benar. Berikut adalah cuplikan teks pada bagian ini :
 ```
+--------------------------------------------
+ _ ____        ____                _
+/ | ___|      |  _ \ _   _ _______| | ___
+| |___ \ _____| |_) | | | |_  /_  / |/ _ \
+| |___) |_____|  __/| |_| |/ / / /| |  __/
+|_|____/      |_|    \__,_/___/___|_|\___|
+
 Welcome to Saul's 15-Puzzle Solver Program
 --------------------------------------------
 Cara generate puzzle:
