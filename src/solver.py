@@ -376,7 +376,6 @@ class Solver:
                 temp.matrix = temp.moveBlankDown()
             temp.printMatrix()
             print()
-        print("Banyaknya simpul yang dibangkitkan:", self.queue.qsize() + len(self.checked))
 
     def solve(self):
         """ This method is used to initiate the solving process
